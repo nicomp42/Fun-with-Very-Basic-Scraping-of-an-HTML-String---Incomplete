@@ -3,7 +3,7 @@
 
 from utilsPackage.utils import *
 import bs4
-
+ 
 # Just load the contents of an HTML file into a Python string
 HTML = getHTML()
 
@@ -17,3 +17,12 @@ soup = bs4.BeautifulSoup(HTML, 'html.parser')
 
 
 # Find the Table Data (td) containers
+
+
+# Find the first head container
+
+# Find the head containers
+
+# Drill down into the head container to find the title
+
+# Find the span with the ID of "foo"
